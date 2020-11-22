@@ -3,7 +3,16 @@ import moment from 'moment';
 import Title from "../common/Title";
 import {Row,Col} from 'react-bootstrap'
 import './index.scss';
+import mongo from "../../assets/mongo.png"
+import express from '../../assets/express.png'
 import react from '../../assets/react.png'
+import node from '../../assets/node.png'
+import redux from '../../assets/redux.png'
+import herokuu from '../../assets/herokuu.png'
+import azuree from '../../assets/azuree.png'
+import javascriptt from '../../assets/javascriptt.png'
+import bootstrapp from '../../assets/bootstrapp.png'
+import materialuii from '../../assets/materialuii.png'
 import ResumeItem from "./Item";
 
 const Resume = () => {
@@ -12,21 +21,24 @@ const Resume = () => {
             <Title icon={'fa fa-briefcase'}>
                 Skills
             </Title>
-            <ResumeItem
-                title={'Tech Stack'}
-            >
+        
                  <Row className="skillz" md={4}>
-                    <Col style={{backgroundColor:"blue"}}>1 of 5</Col>
-                    <Col style={{width:"130px", padding:"0px 15px 0px 0px"}}>2 of 5</Col>
-                    <Col style={{backgroundColor:"blue",width:"130px", padding:"0px 15px 0px 0px"}}>3 of 5</Col>
-                    <Col style={{ width: "130px", padding: "0px 15px 0px 0px" }}>4 of 5</Col>
-                    <Col style={{backgroundColor:"blue",width:"130px", padding:"0px 15px 0px 0px"}}>5 of 5</Col>
+                    <Col><img src={mongo} /><br></br><p>MongoDB</p></Col>
+                    <Col><img src={express} /><br></br><p>Express</p></Col>
+                    <Col><img src={react}/><br></br><p>React</p></Col>
+                    <Col><img src={node} /><br></br><p>Node.js</p></Col>
+                    <Col><img src={redux}/><br></br><p>Redux</p></Col>
                 </Row>
-                
-                {/* <img src={react} /> */}
-            </ResumeItem>
+             
+                <Row className="skillz" md={4} style={{marginBottom:"2rem"}}>
+                    <Col><img src={herokuu} /><br></br><p>Heroku</p></Col>
+                    <Col><img src={azuree} /><br></br><p>Azure</p></Col>
+                    <Col><img src={javascriptt}/><br></br><p>JavaScript</p></Col>
+                    <Col><img src={bootstrapp} /><br></br><p>Bootstrap</p></Col>
+                    <Col><img src={materialuii}/><br></br><p>Material UI</p></Col>
+                </Row>
 
-            <ResumeItem
+            {/* <ResumeItem
                 date={'Mar 2017 – Apr 2019'}
                 title={'JavaScript Developer'}
                 company={'Beyn Technology'}
@@ -48,7 +60,8 @@ const Resume = () => {
                 • Connected to Data Sources and performed operations using Spring Data framework features like
                 Spring JDBC and Spring ORM. <br />
                 • Built RESTFul web services consume them using Angular JS. <br />
-            </ResumeItem>
+            </ResumeItem> */}
+
             <Title icon={'fa fa-university'}>
                 Education
             </Title>

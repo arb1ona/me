@@ -68,10 +68,15 @@
 }
 
 .skillz {
+  margin-top: 1rem;
+
   .col {
-    & > img {
-      width: 130px;
-      height: 130px;
+    & > p {
+      font-weight: 800;
+      font-size: 19px;
+      color: #112c68;
+      text-align: center;
+      // justify-content: center;
     }
   }
 }
