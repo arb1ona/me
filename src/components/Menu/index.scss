@@ -9,29 +9,33 @@
   & > li {
     display: block;
     overflow: hidden;
-    transition: color .3s ease 0s;
-    -moz-transition: color .3s ease 0s;
-    -webkit-transition: color .3s ease 0s;
+    transition: color 0.3s ease 0s;
+    -moz-transition: color 0.3s ease 0s;
+    -webkit-transition: color 0.3s ease 0s;
     flex-grow: 1;
     position: relative;
 
     &:hover {
-      & > a, & span {
+      & > a,
+      & span {
         color: var(--primary-color);
       }
     }
 
     &:not(:last-child)::before {
-      content: '';
+      content: "";
       position: absolute;
       right: 0;
       bottom: 0;
       width: 1px;
       height: 100%;
-      background: radial-gradient(ellipse at center, #ddd 0%, rgba(255, 255, 255, 0) 70%);
+      background: radial-gradient(
+        ellipse at center,
+        #ddd 0%,
+        rgba(255, 255, 255, 0) 70%
+      );
       z-index: 222;
     }
-
 
     & > a {
       text-decoration: none;
@@ -45,9 +49,9 @@
       font-size: 12px;
       font-weight: 500;
       text-transform: uppercase;
-      transition: all .3s ease 0s;
-      -moz-transition: all .3s ease 0s;
-      -webkit-transition: all .3s ease 0s;
+      transition: all 0.3s ease 0s;
+      -moz-transition: all 0.3s ease 0s;
+      -webkit-transition: all 0.3s ease 0s;
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -63,14 +67,13 @@
         color: #323232;
         line-height: 30px;
         border-radius: 30px;
-        transition: all .3s ease 0s;
-        -moz-transition: all .3s ease 0s;
-        -webkit-transition: all .3s ease 0s;
+        transition: all 0.3s ease 0s;
+        -moz-transition: all 0.3s ease 0s;
+        -webkit-transition: all 0.3s ease 0s;
       }
     }
   }
 }
-
 
 .active {
   color: var(--primary-color) !important;

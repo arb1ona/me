@@ -29,7 +29,6 @@ const Profile = () => {
                       ]
                   }
                 />
-                <SocialLinks/>
                 <Info icon="location">
                     TIRANA / ALBANIA
                 </Info>
@@ -43,7 +42,7 @@ const Profile = () => {
                 </a>
                 <a href="mailto:arbiona.shahu@gmail.com">
                         <span>
-                            Contact Me
+                        <SocialLinks/>
                         </span>
                 </a>
             </div>
