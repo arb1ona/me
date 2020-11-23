@@ -17,6 +17,9 @@ const Profile = () => {
             <div className="profile__banner">
                 <img src={arbiona} alt={type} />
             </div>
+            {/* <div className="profile__pic">
+                <img src={arbiona} alt={type} />
+            </div> */}
             <div className="profile__content">
                 <div className="profile__title">
                     Arbiona Shahu

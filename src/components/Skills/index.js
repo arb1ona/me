@@ -26,6 +26,7 @@ const Skills = () => {
                 <li id="express">Express</li>
                 <li id="mongodb">MongoDB</li>
                 <li id="azure">Azure</li>
+                <li id="rest">Heroku</li>
                 <li id="rest">REST Api</li>
             </ul>
             <h6>Design Skills</h6>
