@@ -19,18 +19,8 @@ const Works = () => {
     return (
         <div className="page" id="works">
             <Title>
-                Works - Talk is cheap show me the code!
+                Projects - Master of "Hello World"
             </Title>
-            <WorksMenu
-                items={[
-                    'react',
-                    // 'angular',
-                    // 'vue',
-                    'js'
-                ]}
-                selected={selectedType}
-                clicked={handleMenuChange}
-            />
             <div className="row">
                 {
                     selectedProjects.map(

@@ -15,9 +15,10 @@ const Skills = () => {
     return (
         <div className="skills">
             <h6>Web Skills</h6>
-            <ul onMouseEnter={stopThemeChangeTimer}
+            {/* <ul onMouseEnter={stopThemeChangeTimer}
                 onMouseLeave={startThemeChangeTimer}
-                onMouseOver={handleMouseEnter} >
+                onMouseOver={handleMouseEnter} > */}
+            <ul>
                 <li id="react" >React</li>
                 <li id="redux">Redux</li>
                 <li id="javascript">JavaScript</li> 
@@ -25,7 +26,6 @@ const Skills = () => {
                 <li id="express">Express</li>
                 <li id="mongodb">MongoDB</li>
                 <li id="azure">Azure</li>
-                <li id="heroku">Heroku</li>
                 <li id="rest">REST Api</li>
             </ul>
             <h6>Design Skills</h6>

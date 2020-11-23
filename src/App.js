@@ -52,13 +52,13 @@ const  AnimatedRoutes = withRouter(({location}) =>
                 <Route exact path="/">
                     <About/>
                 </Route>
-                <Route exact path="/resume">
+                <Route exact path="/education">
                     <Resume/>
                 </Route>
-                <Route exact path="/works">
+                <Route exact path="/projects">
                     <Works/>
                 </Route>
-                <Route exact path="/contact">
+                <Route exact path="/skills">
                     <Contact/>
                 </Route>
             </Switch>

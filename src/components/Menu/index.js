@@ -14,21 +14,21 @@ const Menu = () => {
             </Menu.Item>
             <Menu.Item
                 // name={"android-list"}
-                link="/resume#resume"
+                link="/education#education"
             >
-                Resume
-            </Menu.Item>
-            <Menu.Item
-               // name={'paintbrush'}
-                link="/works#works"
-            >
-                Works
+                Education
             </Menu.Item>
             <Menu.Item
                // name={'at'}
-                link="/contact#contact"
+                link="/skills#skills"
             >
-                Contact
+                Skills
+            </Menu.Item>
+            <Menu.Item
+               // name={'paintbrush'}
+                link="/projects#projects"
+            >
+                Projects
             </Menu.Item>
         </ul>
     );

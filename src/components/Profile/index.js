@@ -3,6 +3,7 @@ import './index.scss'
 import TypedText from "../TypedText";
 import SocialLinks from "../SocialLinks";
 import Info from "../Info";
+import placeholder from "../../assets/placeholder.png"
 import Skills from "../Skills";
 import {ThemeContext} from "../../context/ThemeContext";
 import { useAnimation } from "../../use/animation";
@@ -20,7 +21,10 @@ const Profile = () => {
                 <div className="profile__title">
                     Arbiona Shahu
                 </div>
-                <TypedText
+                <div className="profile__stack">
+                Full Stack Developer
+                </div>
+                {/* <TypedText
                   dataText={
                       [
                           'Full Stack Developer',
@@ -28,10 +32,11 @@ const Profile = () => {
                           'Graphic Designer'
                       ]
                   }
-                />
-                <Info icon="location">
-                    TIRANA / ALBANIA
-                </Info>
+                /> */}
+                    <div className="profile__location">
+                    <img src={placeholder} style={{ width: "20px" }} />
+                    Tirana, Albania
+                </div>
                 <Skills />
             </div>
             <div className="profile__contact">
