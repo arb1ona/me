@@ -1,89 +1,15 @@
 export const projects = [
+    
     {
-        title: 'React Portfolio',
+        title: 'Appartner - Home & Flatmate Finder',
         images: [
-            'https://i.ibb.co/df557nk/Screenshot-5.png',
-            'https://i.ibb.co/M5kSTNB/Screenshot-6.png',
+            'https://user-images.githubusercontent.com/63557021/99974004-ac14e580-2da0-11eb-88f0-173f539d0f98.png',
+            'https://user-images.githubusercontent.com/63557021/99976054-4118de00-2da3-11eb-963d-4bf7ba0c2fe4.png',
+'https://user-images.githubusercontent.com/63557021/99976695-111e0a80-2da4-11eb-81a8-25a5aad1a3f5.png'
         ],
-        sourceCodeLink: 'https://github.com/TheCoderDream/react-portfolio',
-        demoLink: 'https://emrebaskan.netlify.app/',
+        sourceCodeLink: 'https://github.com/arb1ona/Appartner',
+        demoLink: 'https://appartner.herokuapp.com/',
         type: 'react'
-    },
-    {
-        title: 'React Ecommerce App With Redux',
-        images: [
-            'https://github.com/TheCodersDream/React-Ecommerce-App-with-Redux/raw/master/ecm1-1.png',
-            'https://github.com/TheCodersDream/React-Ecommerce-App-with-Redux/raw/master/ecm2-2.png',
-            'https://github.com/TheCodersDream/React-Ecommerce-App-with-Redux/raw/master/ecm4.png'
-        ],
-        sourceCodeLink: 'https://github.com/TheCoderDream/React-Ecommerce-App-with-Redux',
-        demoLink: 'http://numberless-leg.surge.sh/',
-        type: 'react'
-    },
-    {
-        title: 'Vue Ecommerce App With Vuex',
-        images: [
-            'https://github.com/TheCodersDream/React-Ecommerce-App-with-Redux/raw/master/ecm1-1.png',
-            'https://github.com/TheCodersDream/React-Ecommerce-App-with-Redux/raw/master/ecm2-2.png',
-            'https://github.com/TheCodersDream/React-Ecommerce-App-with-Redux/raw/master/ecm4.png'
-        ],
-        sourceCodeLink: 'https://github.com/TheCoderDream/Vue-Ecommerce-App-with-Vuex',
-        demoLink: 'http://sincere-wind.surge.sh/',
-        type: 'vue'
-    },
-    {
-        title: 'Angular Ecommerce App With Ngrx',
-        images: [
-            'https://github.com/TheCodersDream/React-Ecommerce-App-with-Redux/raw/master/ecm1-1.png',
-            'https://github.com/TheCodersDream/React-Ecommerce-App-with-Redux/raw/master/ecm2-2.png',
-            'https://github.com/TheCodersDream/React-Ecommerce-App-with-Redux/raw/master/ecm4.png'
-        ],
-        sourceCodeLink: 'https://github.com/TheCoderDream/Angular-Ecommerce-App-with-NGRX',
-        demoLink: 'http://delirious-coast.surge.sh/',
-        type: 'angular'
-    },
-    {
-        title: 'React Chat App With Redux And Firebase',
-        images: [
-            'https://github.com/TheCodersDream/Angular-Chat-App/raw/master/Screenshot_31.png',
-            'https://github.com/TheCodersDream/Angular-Chat-App/raw/master/Screenshot_27.png',
-            'https://github.com/TheCodersDream/Angular-Chat-App/raw/master/Screenshot_28.png',
-            'https://github.com/TheCodersDream/Angular-Chat-App/raw/master/Screenshot_24.png',
-            'https://github.com/TheCodersDream/Angular-Chat-App/raw/master/Screenshot_25.png'
-        ],
-        sourceCodeLink: 'https://github.com/TheCoderDream/React-Chat-App-With-Redux-And-Firebase',
-        demoLink: 'https://react-chat-appp.netlify.app/',
-        type: 'react'
-    },
-    {
-        title: 'Angular Chat app',
-        images: [
-            'https://github.com/TheCodersDream/Angular-Chat-App/raw/master/Screenshot_31.png',
-            'https://github.com/TheCodersDream/Angular-Chat-App/raw/master/Screenshot_27.png',
-            'https://github.com/TheCodersDream/Angular-Chat-App/raw/master/Screenshot_28.png',
-            'https://github.com/TheCodersDream/Angular-Chat-App/raw/master/Screenshot_24.png',
-            'https://github.com/TheCodersDream/Angular-Chat-App/raw/master/Screenshot_25.png'
-        ],
-        sourceCodeLink: 'https://github.com/TheCoderDream/React-Chat-App-With-Redux-And-Firebase',
-        demoLink: 'https://react-chat-appp.netlify.app/',
-        type: 'angular'
-    },
-    {
-        title: 'RxJS Clone',
-        images: [
-            'https://i.ibb.co/KGsh7kM/Screenshot-7.png',
-        ],
-        sourceCodeLink: 'https://github.com/TheCoderDream/rxjs-clone',
-        demoLink: 'https://stackblitz.com/edit/rxjs-clone?file=index.ts',
-        type: 'js'
-    },
-    {
-        title: 'Lodash Clone',
-        images: [
-            'https://www.agiliacenter.com/wp-content/uploads/2018/04/Lodash.png',
-        ],
-        sourceCodeLink: 'https://github.com/TheCoderDream/Lodash-Clone',
-        demoLink: '#',
-        type: 'js'
     }
+    
 ]

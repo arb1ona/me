@@ -16,7 +16,7 @@
   // }
 
   &__content {
-    padding: 140px 50px 0px 50px;
+    padding: 135px 50px 0px 50px;
     position: relative;
     left: 0;
     width: 100%;
@@ -76,6 +76,7 @@
 
   &__title {
     font-size: 26px;
+    padding: 5px;
     color: #323232;
     line-height: 32px;
     font-weight: 500;
@@ -87,6 +88,7 @@
   }
   &__location {
     font-size: 14px;
+    padding: 5px;
   }
 
   //&::after {
