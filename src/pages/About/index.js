@@ -9,28 +9,46 @@ const About = () => {
                 About Me
             </Title>
             <div className="row">
-                <div className="column">
+                <div className="column" style={{  textAlign: "justify"}}>
                     <strong>
-                        Hi, I am Emre Baskan
+                        Hi, I am Arbiona Shahu
                     </strong>
                     <p>
-                        Self-taught, self-driven, passionate learner and developer focusing on Angular, React, Vue, Node, and Java Technologies. Looking forward to working with ingenious teams on challenging projects.
+                        Architect turned to Full Stack Web Developer!
+                        <br/>
+                        I graduated from university with a Scientific Master's degree in Architecture and then ended up doing a series of internships with different construction firms. 
+                        During the past two years, I put my efforts also in eCommerce and monetizing social media pages.
+
                         <br/> <br/>
-                        I’m an easy going person that works well with everyone. I enjoy being around different types of people and I like to always challenge myself to improve at everything I do.
+                        This experience helped me to grow my independence, but this year I felt I needed something different in my life.
+                        <br/>         
+                        So, I joined STRIVE School with 0 knowledge in programming and it formed me as a full-stack web developer. 
+                        The transformation has ben truly impressive and now, I can bring mockups to life as fully-functional applications!
+                        
                         <br/><br/>
-                        I have a great passion for learning languages and exploring the world and also programming. I have always loved technology and programming. And this is my profession now.
+                        My goal is to work in a company that encourages its employees and helps them grow.
+                        JavaScript and MERN Stack is something I would enjoy!
 
                     </p>
                 </div>
             </div>
             <Title>
-                My philosophy of programming
-            </Title>
+What I learned from programming?            </Title>
             <div className="row">
                 <div className="column">
+                <p>
+                
+                        I have always been fascinated how Architecture formed me as a problem-solver and critcal-thinker! But it wasn't enough! I wanted more! 
+                        So, I started programming to learn how technologies worked.
+                        During this process I found out that programming is a way of thinking too, just like architecture, but in different scale and syntax.
+                        
+                        <br/> <br/>
+                        As I Understood how JavaScript worked, I believe that having a solid knowledge of core technologies allows developers to master any frameworks.
+                        <br/><br/>        
+                        P.S.
+                        Now, Thanks to programming, I am more pragmatic and practical. 
+                        I love the new ME!
 
-                    <p>
-                        I have a deep understanding of how JavaScript works. I strongly believe that having a solid understanding of core technologies allows developers to master at any frameworks.
                     </p>
                 </div>
             </div>
