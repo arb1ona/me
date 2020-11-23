@@ -5,7 +5,7 @@ import Title from "../common/Title";
 const About = () => {
     return (
         <div className="page" id="about">
-            <Title>
+            <Title icon={'fas fa-heart'}>
                 About Me
             </Title>
             <div className="row">

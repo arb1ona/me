@@ -24,10 +24,10 @@ const Profile = () => {
                 <div className="profile__title">
                     Arbiona Shahu
                 </div>
-                <div className="profile__stack">
+                {/* <div className="profile__stack">
                 Full Stack Developer
-                </div>
-                {/* <TypedText
+                </div> */}
+                <TypedText
                   dataText={
                       [
                           'Full Stack Developer',
@@ -35,9 +35,9 @@ const Profile = () => {
                           'Graphic Designer'
                       ]
                   }
-                /> */}
-                    <div className="profile__location">
-                    <img src={placeholder} style={{ width: "20px" }} />
+                />
+                <div className="profile__location">
+                <i class="fas fa-map-marker-alt"></i>                    {/* <img src={placeholder} style={{ width: "20px" }} /> */}
                     Tirana, Albania
                 </div>
                 <Skills />
