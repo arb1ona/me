@@ -38,16 +38,16 @@ What I learned from programming?            </Title>
                 <div className="column">
                 <p>
                 
-                        I have always been fascinated how Architecture formed me as a problem-solver and critcal-thinker! But it wasn't enough! I wanted more! 
-                        So, I started programming to learn how technologies worked.
-                        During this process I found out that programming is a way of thinking too, just like architecture, but in different scale and syntax.
+                I have always been fascinated by how Architecture formed me as a problem-solver and critical-thinker! But it wasn't enough! I wanted more!
+
+                        <br/><br/>
+                        In addition to that, I started programming to learn how technologies worked. During this process, I found out that programming is a way of thinking, just like architecture, but in different scales and syntax.
                         
                         <br/> <br/>
-                        As I Understood how JavaScript worked, I believe that having a solid knowledge of core technologies allows developers to master any frameworks.
-                        <br/><br/>        
-                        P.S.
-                        Now, Thanks to programming, I am more pragmatic and practical. 
-                        I love the new ME!
+                        As I Understood how JavaScript works, I believe that having a solid knowledge of core technologies allows developers to master any frameworks.                        <br/><br/>        
+                        P.S. 
+                        <br/>
+Now, Thanks to programming, I am more pragmatic and practical than ever before. <br/>I love the new ME!
 
                     </p>
                 </div>
