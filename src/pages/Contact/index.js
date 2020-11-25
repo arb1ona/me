@@ -18,7 +18,7 @@ const Contact = () => {
     return (
         <div className="page" id="contact">
             <Title icon={'fa fa-briefcase'}>
-                Skills
+                Web and Design
             </Title>
         
                  <Row className="skillz" md={4}>

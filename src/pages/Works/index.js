@@ -19,7 +19,7 @@ const Works = () => {
     return (
         <div className="page" id="works">
             <Title icon={'fas fa-code'}>
-                Projects - Master of "Hello World"
+                Master of "Hello World"
             </Title>
            
             <div className="row">

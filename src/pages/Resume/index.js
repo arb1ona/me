@@ -14,7 +14,7 @@ const Resume = () => {
     
 
             <Title icon={'fa fa-university'}>
-                Education
+                University & Trainings
             </Title>
             <ResumeItem
                 date={'Apr 2020 - Oct 2020'}
