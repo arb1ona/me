@@ -8,7 +8,7 @@ export const projects = [
     ],
     sourceCodeLink: "https://github.com/arb1ona/Appartner",
     demoLink: "https://appartner.herokuapp.com/",
-    type: "react",
+    type: "ReactJs",
   },
   {
     title: "Covid-19 Tracker",
@@ -19,6 +19,17 @@ export const projects = [
     ],
     sourceCodeLink: "https://github.com/arb1ona/Appartner",
     demoLink: "https://github.com/arb1ona/COVID-19-TRACKER",
-    type: "react",
+    type: "ReactJs",
+  },
+  {
+    title: "TMDb Clone",
+    images: [
+      "https://user-images.githubusercontent.com/63557021/107712358-92ad7680-6cc9-11eb-8163-c06c67301f4b.png",
+
+      "https://user-images.githubusercontent.com/63557021/107712361-93dea380-6cc9-11eb-8baa-7d29b3ab126d.png",
+    ],
+    sourceCodeLink: "https://github.com/arb1ona/TMDb-clone-MERN",
+    demoLink: "https://github.com/arb1ona/TMDb-clone-MERN",
+    type: "MERN",
   },
 ];
